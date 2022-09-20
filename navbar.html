@@ -1,0 +1,22 @@
+
+<div class="navbar-fixed">
+    <nav class="grey darken-3" role="navigation"  style="height : 5em">
+        <div class="nav-wrapper">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <a href="/" class="brand-logo" style="font-size:2.5vw;text-align:center;">
+                <div style="position: relative; left: 1em; display :flex; " >
+                  <em><h4>Cardiovascular Stroke Prediction</h4></em>
+                </div>
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down" style="margin-top:1em;">
+                {% include 'main/includes/navbar_buttons.html' %}
+            </ul>
+        </div>
+    </nav>
+</div>
+
+    <!--This is for controlling mobile-->
+    <ul class="sidenav" id="mobile-demo">
+        {% include 'main/includes/navbar_buttons.html' %}
+    </ul>
